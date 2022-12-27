@@ -10,12 +10,14 @@ html {
 }
   
 body {
-    font-family: v.$fuente_principal;
-    font-size: 1.6rem;
+    font-family: v.$fuente_parrafo;
+    font-size: 1.8rem;
 }
 p {
     color: v.$negro;
     font-size: 2rem;
+    font-family: v.$fuente_parrafo;
+    font-weight: 600;
     line-height: 2;
 }
 .contenedor {
@@ -35,9 +37,12 @@ img {
 
 h1, h2, h3 {
     margin: 0 0 2rem  0 ;
+    font-family: v.$fuente_titulos;
+    font-weight: 700;
 }
 h1 {
     font-size: 4rem;
+    font-weight: 900;
 }
 h3 {
     font-size: 2.8rem;

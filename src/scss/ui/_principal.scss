@@ -1,0 +1,78 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.principal{
+    @include m.tablet { 
+        @include m.grid(2,0);
+    }
+
+    &__imagen{
+        padding: 18rem 0;
+        &--inicio{
+            @include m.imagen("image-transform");
+        }
+        &--copa{
+            @include m.imagen("image-stand-out");
+        }
+    }
+
+    &__card{
+        padding: 8rem 2rem;
+        text-align: center;
+
+        @include m.tablet { 
+            padding: 22%;
+            text-align: left;
+        }
+
+        &--inicio{
+            grid-row: 1 / 2;
+        }
+    }
+
+    &__card-heading{
+        font-size: 3.5rem;
+        font-weight: 900;
+    }
+
+    &__parrafo{
+        color: v.$darkGray;
+        line-height: 1.6;
+
+        &--verde{
+            color: v.$graphicDesign;
+        }
+
+        &--azul{
+            color: v.$photography;
+        }
+    }
+
+    &__subtitle-amarillo{
+        @include m.subtitle(transparentize(v.$secundario,0.7));
+    }
+    &__subtitle-rosa{
+        @include m.subtitle(transparentize(v.$primario,0.7));
+    }
+
+
+    &__card-2{
+        padding: 45rem 2rem 5rem 2rem;
+        text-align: center;
+
+        &--verde{
+            @include m.imagen("image-graphic-design");
+            color: v.$graphicDesign;
+        }
+
+        &--azul{
+            @include m.imagen("image-photography");
+            color: v.$photography;
+        }
+
+        @include m.tablet { 
+            padding: 45rem 22% 5rem 22%;
+        }
+        
+    }
+}

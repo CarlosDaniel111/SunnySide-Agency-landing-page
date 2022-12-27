@@ -1,45 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="build/css/app.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
-  About
-  Services
-  Projects
-  Contact
 
-  We are creatives
+  <header class="header">
+    <div class="header__top contenedor">
+      <div class="header__logo">
+        <img src="build/img/logo.svg" alt="logo Sunnyside">
+      </div>
+      <nav class="header__navegacion">
+        <a class="header__enlace" href="#">About</a>
+        <a class="header__enlace" href="#">Services</a>
+        <a class="header__enlace" href="#">Projects</a>
+        <a class="header__boton" href="#">CONTACT</a>
+      </nav>
+      <div class="header__barra">
+        <img src="build/img/icon-hamburger.svg" alt="icon hamburger">
+      </div>
+    </div>
+    <h1 class="header__heading">We are creatives</h1>
+    <img src="build/img/icon-arrow-down.svg" alt="icon flecha abajo" class="header__flecha">
+  </header>
 
-  Transform your brand
+  <main class="principal">
+    <div class="principal__imagen principal__imagen--inicio">
+    </div>
+    <div class="principal__card principal__card--inicio">
+      <h2 class="principal__card-heading">
+        Transform your brand
+      </h2>
+      <p class="principal__parrafo">
+        We are a full-service creative agency specializing in helping brands grow fast.
+        Engage your clients through compelling visuals that do most of the marketing for you.
+      </p>
+      <a href="#" class="principal__subtitle-amarillo">
+        Learn more
+      </a>
+    </div>
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+    <div class="principal__imagen principal__imagen--copa">
+    </div>
+    <div class="principal__card">
+      <h2 class="principal__card-heading">
+        Stand out to the right audience
+      </h2>
+      <p class="principal__parrafo">
+        Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
+        build and extend your brand in digital places.
+      </p>
+      <a href="#" class="principal__subtitle-rosa">
+        Learn more
+      </a>
+    </div>
 
-  Learn more
+    <div class="principal__card-2 principal__card-2--verde">
+      <h2 class="principal__card-heading">
+        Graphic design
+      </h2>
+      <p class="principal__parrafo principal__parrafo--verde">
+        Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+      </p>
+    </div>
 
-  Stand out to the right audience
+    <div class="principal__card-2 principal__card-2--azul">
+      <h2 class="principal__card-heading">
+        Photography
+      </h2>
+      <p class="principal__parrafo principal__parrafo--azul">
+        Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+      </p>
+    </div>
+  </main>
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
 
   Client testimonials
 
@@ -47,7 +108,8 @@
   Emily R.
   Marketing Director
 
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable
+  experience.
   Thomas S.
   Chief Operating Officer
 
@@ -61,8 +123,11 @@
   Contact
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  <script src="src/js/app.js"></script>
 </body>
+
 </html>

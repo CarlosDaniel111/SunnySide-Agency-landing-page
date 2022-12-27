@@ -1,5 +1,6 @@
 // Fuentes
-$fuente_principal: 'Poppins', sans-serif;
+$fuente_parrafo: 'Barlow', sans-serif;
+$fuente_titulos: 'Fraunces', serif;
 
 // Tamaño de Media Queries
 $telefono: 480px;
@@ -7,8 +8,14 @@ $tablet: 768px;
 $desktop: 1024px;
 
 // Colores
-$primario: #84d9bc;
-$secundario: #313c4e; 
-$secundarioOpacity: rgb( 57 70 89 / .7 );
+$primario: hsl(7, 99%, 70%);
+$secundario: hsl(51, 100%, 49%); 
+$graphicDesign: hsl(167, 40%, 24%);
+$photography: hsl(198, 62%, 26%);
+$textFooter: hsl(168, 34%, 41%);
+$veryDarkBlue: hsl(212, 27%, 19%);
+$veryDarkGray: hsl(213, 9%, 39%);
+$darkGray: hsl(232, 10%, 55%);
+$gray: hsl(210, 4%, 67%);
 $negro: #000;
 $blanco: #FFFFFF;

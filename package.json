@@ -1,0 +1,36 @@
+{
+  "name": "sunnyside-agency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosDaniel111/SunnySide-Agency-landing-page.git"
+  },
+  "author": "Carlos Beltran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosDaniel111/SunnySide-Agency-landing-page/issues"
+  },
+  "homepage": "https://github.com/CarlosDaniel111/SunnySide-Agency-landing-page#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.1.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-webp": "^4.0.1",
+    "postcss": "^8.4.20",
+    "sass": "^1.57.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%"
+  ]
+}
