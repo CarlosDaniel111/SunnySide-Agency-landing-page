@@ -56,12 +56,19 @@
     &:after{
         content: '';
         position: absolute;
-        bottom: -0.2rem;
+        bottom: -0.1rem;
         left: -0.5rem;
+        z-index: -1;
         border-radius: 1rem;
         width: 110%;
         height: 1rem;  
-        background-color: $color;      
+        background-color: transparentize($color,0.7);      
+    }
+
+    &:hover{
+        &:after{
+            background-color: $color;
+        }
     }
 }
 

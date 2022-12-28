@@ -1,0 +1,28 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.galeria{
+    height: 40rem;
+    @include m.grid(2,0);
+
+    @include m.tablet { 
+        height: 45rem;
+        @include m.grid(4,0);
+    }
+
+    &__imagen-1{
+        @include m.imagen("image-gallery-milkbottles");
+    }
+
+    &__imagen-2{
+        @include m.imagen("image-gallery-orange");
+    }
+
+    &__imagen-3{
+        @include m.imagen("image-gallery-cone");
+    }
+
+    &__imagen-4{
+        @include m.imagen("image-gallery-sugar-cubes");
+    }
+}

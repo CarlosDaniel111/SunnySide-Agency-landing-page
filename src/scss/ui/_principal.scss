@@ -49,10 +49,10 @@
     }
 
     &__subtitle-amarillo{
-        @include m.subtitle(transparentize(v.$secundario,0.7));
+        @include m.subtitle(v.$secundario);
     }
     &__subtitle-rosa{
-        @include m.subtitle(transparentize(v.$primario,0.7));
+        @include m.subtitle(v.$primario);
     }
 
 

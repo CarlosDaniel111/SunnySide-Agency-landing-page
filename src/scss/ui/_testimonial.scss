@@ -1,0 +1,26 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.testimonial{
+
+    text-align: center;
+
+    &__avatar{
+        margin: 8rem auto 5rem auto;
+        width: 10rem;
+        border-radius: 50%;
+    }
+
+    &__autor{
+        margin: 4rem 0 1rem 0;
+        font-size: 2rem;
+    }
+
+    
+
+    &__profesion{
+        margin: 0;
+        font-size: 1.7rem;
+        color: v.$gray;
+    }
+}
